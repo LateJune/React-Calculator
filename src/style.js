@@ -1,0 +1,52 @@
+import { StyleSheet } from 'react-native';
+
+let Style = StyleSheet.create({
+    rootContainer: {
+        flex: 1,
+    },
+    calculatorDisplayContainer: {
+        flex: 2,
+        backgroundColor: '#15111f'
+
+    },
+
+    displayText: {
+        color: 'white',
+        fontSize: 38,
+        fontWeight: 'bold',
+        textAlign: 'right',
+        padding: 20
+    },
+
+    calculatorInputContainter: {
+        flex: 8,
+        backgroundColor: '#3E606F'
+    },
+
+    calculatorInputButton: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 0.5,
+        borderColor: '#15111f'
+    },
+    
+    calculatorInputButtonText: {
+        fontSize: 22,
+        fontWeight: 'bold',
+        color: 'white'
+    },
+
+    inputRow: {
+        flex: 1,
+        flexDirection: 'row'
+    },
+
+    inputButtonHighlighted: {
+        backgroundColor: '#15111f'
+    }
+
+
+});
+
+export default Style;
